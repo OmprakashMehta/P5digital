@@ -1,0 +1,63 @@
+.hero-section {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("src/assets/hero-section.png") center/cover no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.tagline {
+    font-family:  Gulim, sans-serif;
+    font-weight: 400;
+  font-size: 18.02px;
+  letter-spacing: 9%;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+.intro {
+    font-family: Khula;
+    font-weight: 400;
+  font-size: 36.63px;
+  letter-spacing: 2px;
+  line-height: 100%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.hero-title {
+    font-family: K2D;
+  font-size: 60.16px;
+  font-style: ExtraBold;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 5%;
+  /* margin: 15px 0; */
+}
+
+.highlight {
+  color: #0042FF;
+}
+
+.hero-text {
+    font-family: Helvetica;
+  font-size: 21.87px;
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-top: 15px;
+  /* line-height: 100%; */
+  letter-spacing: 7%;
+  text-transform: capitalize;
+}

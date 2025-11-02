@@ -1,0 +1,132 @@
+.service-domain {
+  background: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.service-domain-title {
+  font-family: K2D;
+  font-size: 41.38px;
+  font-weight: 800;
+  color: #09090C;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-domain-title span {
+  color: #0042FF;
+}
+
+.service-domain-subtitle {
+  font-family: Helvetica;
+  font-weight: 400;
+  color: #545454;
+  font-size: 18.1px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+/* ---------- Card ---------- */
+.service-domain-card {
+  position: relative;
+  background: #F6F6F6;
+  border-radius: 15px 50px;
+  padding: 55px 25px 35px;
+  text-align: center;
+  margin: 20px;
+}
+
+.service-domain-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ---------- Double Layer Icon ---------- */
+.icon-outer {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e0e8ff;
+  border-radius: 25.4px 25.4px 25.4px 0;
+  padding: 8px;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-inner {
+  background: #0042FF;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- Title ---------- */
+.service-title {
+  font-family: Helvetica;
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 22.63px;
+  color: #09090C;
+  line-height: 1.4;
+}
+
+.service-title span {
+  color: #0042FF;
+}
+
+/* ---------- Description ---------- */
+.service-desc {
+  font-family: Helvetica;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 13.19px;
+  line-height: 20.4px;
+  color: #545454;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Button ---------- */
+.service-btn {
+  background: #0042FF;
+  color: #FFFFFF;
+  border: none;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 13.37px;
+  padding: 12px 28px;
+  border-radius: 5px 20px;
+}
+
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .service-domain-title {
+    font-size: 1.8rem;
+  }
+
+  .service-domain-card {
+    margin: 30px 10px;
+  }
+
+  .icon-outer {
+    width: 70px;
+    height: 70px;
+  }
+
+  .icon-inner {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+  }
+}
