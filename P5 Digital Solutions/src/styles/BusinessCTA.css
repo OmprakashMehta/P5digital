@@ -1,0 +1,22 @@
+.business-cta-section {
+  position: relative;
+  background: url("src/assets/business-section.png") no-repeat center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  overflow: hidden;
+}
+
+.cta-content {
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-content p {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 22px;
+  color: #09090c;
+  margin-bottom: 30px;
+}

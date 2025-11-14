@@ -1,98 +1,86 @@
 import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import {
-  FaMobileAlt,
-  FaLaptopCode,
-  FaBuilding,
-  FaPencilRuler,
+  FaCloud,
+  FaCogs,
+  FaGlobe,
   FaShoppingCart,
-  FaCubes,
+  FaPaintBrush,
+  FaCube,
   FaUserCog,
-  FaEthereum,
+  FaMobileAlt,
 } from "react-icons/fa";
 
+const services = [
+  {
+    icon: <FaMobileAlt />,
+    title: "Mobile Application",
+    highlight: "Development",
+  },
+  { icon: <FaCogs />, title: "Enterprise Software", highlight: "Development" },
+  { icon: <FaGlobe />, title: "Web Application", highlight: "Development" },
+  { icon: <FaShoppingCart />, title: "E-Commerce", highlight: "Development" },
+  { icon: <FaPaintBrush />, title: "UI/UX", highlight: "Design" },
+  { icon: <FaCube />, title: "Software Product", highlight: "Development" },
+  {
+    icon: <FaUserCog />,
+    title: "HRMS Payroll Software",
+    highlight: "Development",
+  },
+  { icon: <FaMobileAlt />, title: "DeFi Apps And", highlight: "Development" },
+  { icon: <FaCogs />, title: "Enterprise Software", highlight: "Development" },
+];
+
 const ServiceDomain = () => {
-  const services = [
-    {
-      icon: <FaMobileAlt />,
-      title: "Mobile Application",
-      highlight: "Development",
-      desc: "We offer a full cycle of application design, integration and management services.",
-    },
-    {
-      icon: <FaLaptopCode />,
-      title: "Web Application",
-      highlight: "Development",
-      desc: "We build websites using the latest technologies like CSS, React. Our services include custom web app development.",
-    },
-    {
-      icon: <FaShoppingCart />,
-      title: "E-Commerce",
-      highlight: "Development",
-      desc: "We offer scalable online store solutions with payment integration.",
-    },
-    {
-      icon: <FaPencilRuler />,
-      title: "UI/UX",
-      highlight: "Design",
-      desc: "A balance of creativity and usability for engaging digital experiences.",
-    },
-    {
-      icon: <FaBuilding />,
-      title: "Enterprise Software",
-      highlight: "Development",
-      desc: "Custom enterprise solutions for complex business processes and automation.",
-    },
-    {
-      icon: <FaCubes />,
-      title: "Software Product",
-      highlight: "Development",
-      desc: "From idea to execution, we build reliable and scalable software products.",
-    },
-    {
-      icon: <FaUserCog />,
-      title: "HRMS Payroll Software",
-      highlight: "Provider",
-      desc: "Comprehensive HR and payroll management system for organizations.",
-    },
-    {
-      icon: <FaEthereum />,
-      title: "DeFi Apps And",
-      highlight: "DApps",
-      desc: "We create decentralized applications on blockchain with secure smart contracts.",
-    },
-  ];
-
   return (
-    <section className="service-domain py-5 text-center">
-      <div className="container">
-        <h2 className="service-domain-title">
-          OUR SERVICE <span>DOMAIN</span>
-        </h2>
-        <p className="service-domain-subtitle">
-          We Provide Services In Following Fields:
-        </p>
+    <section className="service-domain-section py-5">
+      <Container>
+        <div className="text-center mb-5">
+          <h2 className="section-title">
+            OUR SERVICE <span className="service-highlight">DOMAIN</span>
+          </h2>
+          <p className="service-subtitle">
+            We Provide Services In Following Fields:
+          </p>
+        </div>
 
-        <div className="row mt-5">
+        <Row className="g-4">
           {services.map((service, index) => (
-            <div className="col-md-6 mb-4" key={index}> 
-              <div className="service-domain-card">
-                <div className="icon-outer">
-                  <div className="icon-inner">{service.icon}</div>
-                </div>
-                <h5 className="service-title">
-                  {service.title} <span>{service.highlight}</span>
-                </h5>
-                <p className="service-desc">{service.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+            <Col key={index} md={4} sm={6}>
+              <div className="service-card">
+                <span className="outside-line "></span>
 
-        {/* Button */}
-        <div className="mt-5">
-          <button className="service-btn">View All Services</button>
+                <div className="service-icon-circle">
+                  <div className="service-icon-back"></div>
+                  <div className="service-icon-front">{service.icon}</div>
+                </div>
+
+                <h5>
+                  {service.title}{" "}
+                  <span className="highlight">{service.highlight}</span>
+                </h5>
+                <p>
+                  We Offer A Full Cycle Of Application Design, Integration And
+                  Management Services.
+                </p>
+                <a href="#" className="view-more">
+                  View More ↗
+                </a>
+              </div>
+            </Col>
+          ))}
+        </Row>
+
+        <div className="button-wrapper">
+          <div className="button-double-layer">
+            <div className="button-back-layer"></div>
+
+            <a href="/services" className="button-front-layer">
+              Checkout All Services
+            </a>
+          </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

@@ -1,132 +1,206 @@
-.service-domain {
-  background: #ffffff;
-  padding: 60px 0;
-  text-align: center;
+.service-domain-section {
+  background: linear-gradient(180deg, #e7e8f2 0%, #ffffff 100%);
 }
 
-.service-domain-title {
+.service-highlight {
+  font-size: 42px;
   font-family: K2D;
-  font-size: 41.38px;
   font-weight: 800;
-  color: #09090C;
-  margin-bottom: 8px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: transparent;
+  -webkit-text-stroke: 2px #0042ff;
+  letter-spacing: 2px;
+  line-height: 1.2;
 }
 
-.service-domain-title span {
-  color: #0042FF;
-}
-
-.service-domain-subtitle {
+.service-subtitle {
+  color: #545454;
+  font-size: 18px;
   font-family: Helvetica;
   font-weight: 400;
-  color: #545454;
-  font-size: 18.1px;
-  line-height: 28px;
-  margin-bottom: 40px;
 }
 
-/* ---------- Card ---------- */
-.service-domain-card {
+/* ---------- SERVICE CARD ---------- */
+.service-card {
+  background: #f1f2ff;
+  border: 1.6px solid #0042ff36;
+  border-radius: 19px;
+  padding: 25px 20px 30px;
+  text-align: left;
   position: relative;
-  background: #F6F6F6;
-  border-radius: 15px 50px;
-  padding: 55px 25px 35px;
-  text-align: center;
-  margin: 20px;
+  overflow: visible;
+  z-index: 2;
 }
 
-.service-domain-card:hover {
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-/* ---------- Double Layer Icon ---------- */
-.icon-outer {
+/* ---------- LEFT OUTSIDE LINES ---------- */
+.outside-line {
   position: absolute;
-  top: -35px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #e0e8ff;
-  border-radius: 25.4px 25.4px 25.4px 0;
-  padding: 8px;
-  width: 85px;
-  height: 85px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  left: -5px;
+  top: 8%;
+  height: 79px;
+  width: 8px;
+  border-radius: 19px;
+  background: linear-gradient(180deg, #210c58, #421f95);
+  z-index: 1;
 }
 
-.icon-inner {
-  background: #0042FF;
-  color: #fff;
-  font-size: 30px;
+/* ---------- ICON BOX ---------- */
+
+.service-icon-circle {
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  width: 65px;
-  height: 65px;
+  background-color: #ffffff;
+  border: 2px solid #deddf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.service-icon-back {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-top-left-radius: 13.69px;
+  border-top-right-radius: 13.69px;
+  border-bottom-right-radius: 13.69px;
+  background: transparent;
+  border: 3px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(145deg, #42c8ef, #9384ec) border-box;
+  z-index: 1;
+  top: 9px;
+  left: 8px;
+}
+
+.service-icon-front {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-top-left-radius: 13.69px;
+  border-top-right-radius: 13.69px;
+  border-bottom-right-radius: 13.69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  background: linear-gradient(#0044ff, #0044ff) padding-box,
+    linear-gradient(145deg, #42c8ef, #9384ec) border-box;
+  z-index: 2;
+}
+
+.service-card h5 {
+  font-size: 19px;
+  font-family: Helvetica;
+  margin-top: 12px;
+  font-weight: 700;
+}
+
+.service-card p {
+  font-family: Helvetica;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #545454;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.view-more {
+  color: #0042ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* ---------- BUTTON ---------- */
+
+.button-wrapper {
   display: flex;
   justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.button-double-layer {
+  position: relative;
+  width: 20%;
+  height: 50px;
+}
+
+.button-back-layer {
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 9.17px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 9.17px;
+  border: 2px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(145deg, #42c8ef, #9384ec) border-box;
+  z-index: 1;
+}
+
+.button-front-layer {
+  position: absolute;
+  inset: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 9.17px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 9.17px;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px;
+  border: 2px solid transparent;
+  background: linear-gradient(#0042ff, #0042ff) padding-box,
+    linear-gradient(145deg, #42c8ef, #9384ec) border-box;
+  z-index: 2;
+  text-decoration: none;
+  overflow: hidden;
 }
 
-/* ---------- Title ---------- */
-.service-title {
-  font-family: Helvetica;
-  margin-top: 40px;
-  font-weight: 800;
-  font-size: 22.63px;
-  color: #09090C;
-  line-height: 1.4;
-}
-
-.service-title span {
-  color: #0042FF;
-}
-
-/* ---------- Description ---------- */
-.service-desc {
-  font-family: Helvetica;
-  font-weight: 400;
-  margin-top: 10px;
-  font-size: 13.19px;
-  line-height: 20.4px;
-  color: #545454;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ---------- Button ---------- */
-.service-btn {
-  background: #0042FF;
-  color: #FFFFFF;
-  border: none;
-  font-family: Helvetica;
-  font-weight: 700;
-  font-size: 13.37px;
-  padding: 12px 28px;
-  border-radius: 5px 20px;
-}
-
-
-/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
-  .service-domain-title {
-    font-size: 1.8rem;
+  .service-card {
+    padding: 20px 15px;
+  }
+  .service-icon-circle {
+    width: 55px;
+    height: 55px;
   }
 
-  .service-domain-card {
-    margin: 30px 10px;
+  .service-icon-back,
+  .service-icon-front {
+    width: 28px;
+    height: 28px;
   }
 
-  .icon-outer {
-    width: 70px;
-    height: 70px;
+  .service-icon-front {
+    font-size: 14px;
+  }
+  .service-card h5 {
+    font-size: 16px;
+  }
+  .service-highlight {
+    font-size: 30px;
+    -webkit-text-stroke: 1.4px #0042ff;
+  }
+  .service-subtitle {
+    font-size: 15px;
+  }
+  .button-wrapper {
+    margin-top: 40px;
+  }
+  .button-double-layer {
+    width: 55%;
+    height: 48px;
   }
 
-  .icon-inner {
-    width: 50px;
-    height: 50px;
-    font-size: 22px;
+  .button-front-layer {
+    font-size: 16px;
   }
 }

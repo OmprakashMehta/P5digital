@@ -61,3 +61,28 @@
   letter-spacing: 7%;
   text-transform: capitalize;
 }
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 6%;
+    background-position: center top;
+  }
+
+  .hero-title {
+    font-size: 34px;
+  }
+
+  .intro {
+    font-size: 22px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .tagline {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}

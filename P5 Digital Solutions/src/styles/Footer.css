@@ -1,0 +1,131 @@
+.footer-section {
+  background: linear-gradient(180deg, #050a3d 0%, #02123d 100%);
+  color: #fff;
+  padding: 60px 6% 20px;
+  font-family: Helvetica;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 30px;
+}
+
+.footer-column h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #0042ff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: all 0.3s ease;
+}
+
+.footer-column p {
+  color: #ffffff;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.footer-column p a {
+  text-decoration: none;
+}
+.footer-column a:hover {
+  color: #42c8ef;
+}
+
+.footer-bottom {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #42c8ef;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #42c8ef;
+}
+
+.footer-credit span {
+  color: #42c8ef;
+  font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+  .footer-section {
+    padding: 40px 6% 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .footer-column h5 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-column ul li a {
+    font-size: 0.9rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-credit {
+    text-align: center;
+    width: 100%;
+  }
+}
