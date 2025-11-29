@@ -5,26 +5,31 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+// Core components
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import ServiceDomain from "./components/ServiceDomain";
-import ClientsSection from "./components/ClientsSection";
-import FeaturesSection from "./components/FeaturesSection";
-import BusinessCTA from "./components/BusinessCTA";
 import Footer from "./components/Footer";
+
+// pages
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Blog from "./pages/Blog";
+import Career from "./pages/Career";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <HelmetProvider>
       <Router>
         <Header />
-        <Hero />
-        <About />
-        <ServiceDomain />
-        <ClientsSection />
-        <FeaturesSection />
-        <BusinessCTA />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/talk-to-us" element={<Contact />} />
+        </Routes>
         <Footer />
       </Router>
     </HelmetProvider>

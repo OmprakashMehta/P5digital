@@ -1,8 +1,13 @@
 @import "./styles/Header.css";
 @import "./styles/Hero.css";
-@import "./styles/About.css";
+@import "./styles/AboutSection.css";
 @import "./styles//ServiceDomain.css";
 @import "./styles//ClientsSection.css";
 @import "./styles//FeaturesSection.css";
 @import "./styles/BusinessCTA.css";
 @import "./styles//Footer.css";
+
+@import "./pages/About.css";
+@import "./pages/Services.css";
+@import "./pages/Blog.css";
+@import "./pages/Contact.css";

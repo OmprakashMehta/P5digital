@@ -1,0 +1,70 @@
+.about-page {
+  margin-top: 105px;
+}
+.custom-about-img {
+  border-radius: 10px 50px;
+}
+
+.founder-card {
+  background: #ffffff;
+  padding: 22px 25px;
+  border-radius: 5px 26px;
+  border: 2.5px solid transparent;
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(135deg, #42c8ef, #9384ec) border-box;
+  box-shadow: inset 1.81px 6.32px 25.27px 0px rgba(0, 66, 255, 0.1),
+    0px 8px 18px rgba(0, 0, 40, 0.08);
+
+  margin-top: 20px;
+  min-height: 215px;
+}
+
+.f-name {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: Helvetica;
+  color: #09090c;
+}
+
+.f-name span {
+  color: #0042ff;
+}
+
+.f-role {
+  color: #4A75F1;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+   font-family: Helvetica;
+}
+
+.f-details {
+  font-size: 14px;
+  color: #545454;
+  line-height: 1.6;
+   font-family: Helvetica;
+}
+
+
+
+@media (max-width: 768px) {
+  .founder-card {
+    min-height: auto;           
+    padding: 18px 20px;
+  }
+
+  .custom-about-img {
+    max-width: 300px;
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  .f-name {
+    font-size: 19px;
+  }
+
+  .f-details {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCloud, FaUsersCog, FaLightbulb, FaUserShield } from "react-icons/fa";
 
-const About = () => {
+const AboutSection = () => {
   return (
     <section className="about-section py-5">
       <Container>
@@ -83,4 +83,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

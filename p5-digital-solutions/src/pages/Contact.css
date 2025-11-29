@@ -1,0 +1,123 @@
+.contact-section {
+  background: #b0c3e4;
+  padding: 50px 20px;
+  margin-top: 100px;
+}
+
+.contact-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.contact-img {
+  width: 100%;
+  border-radius: 60px 0 120px 0;
+  border: 10px solid #0042ff;
+  object-fit: cover;
+}
+
+.contact-form label {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #f4f7ff;
+  border: 2px solid #0042ff4f;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 14px;
+
+  box-shadow: inset 1px 2px 8px rgb(229, 238, 250),
+    0 3px 8px rgba(0, 0, 50, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0042ff;
+  box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.18),
+    0 3px 10px rgba(0, 40, 150, 0.1);
+  outline: none;
+}
+
+.submit-btn {
+  background: #0042ff;
+  font-family: Helvetica !important;
+  border: none !important;
+  padding: 6px 20px !important;
+  border-radius: 6px !important;
+  font-size: 18px !important;
+}
+
+.submit-btn:hover {
+  background: #0032c8;
+}
+
+@media (max-width: 768px) {
+  .contact-img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    border-radius: 15px;
+  }
+}
+
+
+
+.icon-title-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 10px;
+  margin-top: -10px; 
+}
+
+.title-row{
+    display: flex;
+    flex-direction: column;
+}
+
+/* map section */
+
+.visit-section {
+  margin: 40px 0;
+}
+
+.visit-title {
+  font-size: 31px;
+  font-weight: 800;
+  font-family: K2D;
+  text-transform: uppercase;
+  color: #09090c;
+}
+
+.visit-title span {
+  color: #0042ff;
+}
+
+.visit-info {
+  font-size: 22px;
+  color: #09090C;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: Helvetica;
+  margin-bottom: 4px;
+}
+
+.visit-img-wrapper {
+  border: 2.5px solid #e1e8ff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+
