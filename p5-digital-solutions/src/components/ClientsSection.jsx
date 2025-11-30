@@ -4,22 +4,22 @@ const clientsRow1 = [
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
 ];
 
@@ -27,32 +27,32 @@ const clientsRow2 = [
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
 ];
 
@@ -60,37 +60,37 @@ const clientsRow3 = [
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
   {
     name: "Montfort School",
     city: "Hazaribagh",
-    logo: "src/assets/montfort.png",
+    logo: "/assets/montfort.png",
   },
 ];
 

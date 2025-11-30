@@ -72,7 +72,7 @@ const AboutSection = () => {
 
           <Col md={5} className="text-center">
             <img
-              src="src/assets/development-cycle.png"
+              src="/assets/development-cycle.png"
               alt="Software Development Life Cycle"
               className="about-image img-fluid"
             />

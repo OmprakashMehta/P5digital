@@ -1,5 +1,5 @@
 .about-section {
-  background: url("src/assets/about-section.png") center/cover no-repeat;
+  background: url("/assets/about-section.png") center/cover no-repeat;
   color: #09090c;
   overflow: hidden;
 }

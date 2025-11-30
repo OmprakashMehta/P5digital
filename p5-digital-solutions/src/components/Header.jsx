@@ -38,7 +38,7 @@ function Header() {
       <Container>
         <Navbar.Brand as={Link} to="/" onClick={handleNavClick}>
           <img 
-            src="src/assets/brand-logo.png" 
+            src="/assets/brand-logo.png" 
             alt="P5 DIGITAL SOLUTIONS" 
             loading="eager"
             className="brand-logo"

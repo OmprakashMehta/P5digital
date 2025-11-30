@@ -1,6 +1,6 @@
 .business-cta-section {
   position: relative;
-  background: url("src/assets/business-section.png") no-repeat center/cover;
+  background: url("/assets/business-section.png") no-repeat center/cover;
   text-align: center;
   padding: 100px 20px;
   overflow: hidden;
