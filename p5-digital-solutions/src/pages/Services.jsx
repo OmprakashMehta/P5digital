@@ -139,6 +139,7 @@ const Service = () => {
 
       </Container>
     </section>
+    <hr />
      <FeaturesSection />
       <BusinessCTA />
     </>

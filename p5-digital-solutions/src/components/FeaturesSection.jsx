@@ -22,7 +22,7 @@ const FeaturesSection = () => {
       <div className="features-wrapper">
         <div className="features-left">
           <img
-            src="src/assets/features.png"
+            src="/assets/features.png"
             alt="Safe and Secured Apps"
             className="feature-image"
           />

@@ -54,7 +54,7 @@ const Contact = () => {
           <Col md={5} className="text-center">
             <div className="contact-image-wrapper">
               <img
-                src="/src/assets/contact-us.png"
+                src="/assets/contact-us.png"
                 alt="Contact"
                 className="contact-img"
               />
@@ -175,7 +175,7 @@ const Contact = () => {
           <Col md={6} className="text-center">
             <div className="visit-img-wrapper">
               <img
-                src="src/assets/map.png"
+                src="/assets/map.png"
                 alt="Location Map"
                 className="visit-img"
               />

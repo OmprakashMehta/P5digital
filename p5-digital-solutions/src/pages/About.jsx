@@ -59,7 +59,7 @@ const About = () => {
 
           <Col md={5} className="text-center">
             <img
-              src="src/assets/aboutpage/about-us.png"
+              src="/assets/aboutpage/about-us.png"
               alt="Company"
               className="about-image img-fluid custom-about-img"
             />
